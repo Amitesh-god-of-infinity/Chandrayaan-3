@@ -1,0 +1,77 @@
+body {
+    background-image : url(deep_space.jpg) ;
+    font-family : Arial, sans-serif ;
+    margin : 0 ;
+    padding : 0 ;
+    color : cyan ;
+}
+header {
+    background-color : #dc4015 ;
+    color : #333 ;
+    padding : 20px ;
+    text-align : center ;
+}
+header h1 {
+    margin : 0 ;
+    color : #333 ;
+}
+nav ul {
+    list-style-type : none ;
+    margin : 0 ;
+    padding : 0 ;
+    overflow : hidden ;
+    background-color : #333 ;
+}
+nav li {
+    float : left ;
+}
+nav li a:hover {
+    background-color : #111 ;
+}
+section {
+    display : flex ;
+    flex-wrap : wrap ;
+    margin : 20px ;
+}
+article {
+    color : rgb(255, 0, 93) ;
+    flex : 1 ;
+    margin : 20px ;
+}
+
+h1 {
+    color : cyan ;
+}
+h2 {
+    color : cyan ;
+}
+h3 {
+    color : whitesmoke ;
+}
+h4 {
+    color : white ;
+}
+
+hr {
+    background-color : white ;
+    color : white ;
+    width : auto ;
+    height : 5px ;
+}
+
+footer {
+    background-color : #66ff00 ;
+    color : white ;
+    padding : 10px ;
+    text-align : center ;
+}
+
+footer h2 {
+    color : black ;
+    text-align : center ;
+
+}
+footer h3 {
+    color : rgb(244, 0, 102) ;
+
+}
